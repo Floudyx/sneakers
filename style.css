@@ -87,6 +87,7 @@ body {
   background-color: #ffffff;
   width: 371px;
   border-radius: 12px;
+  transition: 400ms ease;
 }
 
 .card__img {
@@ -203,7 +204,12 @@ a {
   margin: 0;
 }
 
-/*page*/
+.card:hover {
+  box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.25);
+  transform: translateY(-10px);
+}
+
+/*pages*/
 
 .sneaker {
   margin: 32px 0;
